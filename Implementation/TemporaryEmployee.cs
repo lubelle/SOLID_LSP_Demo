@@ -26,5 +26,9 @@ namespace SOLID_LSP_DEMO.Implementation
         {
             return 10000;
         }
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }

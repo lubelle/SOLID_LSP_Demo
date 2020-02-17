@@ -24,5 +24,9 @@ namespace SOLID_LSP_DEMO.Implementation
         {
             return 8500;
         }
+        public override string ToString()
+        {
+            return string.Format("ID: {0} Name: {1}", this.ID, this.Name);
+        }
     }
 }
