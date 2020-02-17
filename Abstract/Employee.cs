@@ -25,10 +25,7 @@ namespace SOLID_LSP_DEMO.Abstract
             return string.Format("ID: {0} Name: {1}", this.ID, this.Name);
         }
 
-        public decimal GetMinimumSalary()
-        {
-            throw new NotImplementedException();
-        }
+        public abstract decimal GetMinimumSalary();
 
         public abstract decimal CalculateBonus(decimal salary);
     }
